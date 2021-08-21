@@ -1,0 +1,86 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: Open Sans,Arial,Helvetica,sans-serif,Heiti;
+}
+body
+{
+    background-color: skyblue;
+}
+.container
+{
+    width: 1140px;
+    margin: auto;
+}
+header
+{
+    
+    padding: 20px 0 10px 110px;
+    background-image: linear-gradient(rgb(106, 195, 230), white, rgb(101, 191, 226));
+    
+}
+header p 
+{
+    display: inline-block;
+    margin-left: 200px;
+}
+header p img 
+{
+    position: relative;
+    top: -7px;
+}
+header p .a-k
+{
+    position: relative;
+    top: -15px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.line
+{
+    margin-top: 70px;
+}
+.box
+{
+    width: 220px;
+    height: 310px;
+    background-color: white;
+    margin-right: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    position: relative;
+}
+.box:hover
+{
+    box-shadow: 0 0 20px black;
+}
+.box img
+{
+    border-bottom: 2px solid lightgray;
+}
+.info
+{
+    margin: 5px 15px;
+}
+.narxi
+{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.company
+{
+    margin: 3px;
+    float: right;
+}
+.company a
+{
+    color: gray;
+    font-size: 14px;
+}
+footer 
+{
+    margin-bottom: 500px;
+}
