@@ -5,6 +5,9 @@
 .manzil h1 
 {
     margin-bottom: 30px;
+    display: inline-block;
+    font-size: 35px;
+    border-bottom: 5px solid rgb(0, 49, 68);
 }
 .manzil > p 
 {
@@ -14,4 +17,37 @@
 .content
 {
     border: 3px solid;
+}
+.xarita-1
+{
+    float: left;
+    border: 3px solid #999;
+    padding: 20px 20px;
+    background-color: rgba(196, 196, 196, 0.37);
+}
+.xarita-2
+{
+    float: right;
+}
+.xarita 
+{
+    text-align: center;
+}
+.xarita h1 
+{
+    float: left;
+    margin: 50px 0 40px 0;
+    display: inline-block;
+    border-bottom: 3px solid rgb(0, 49, 68);
+}
+.alert-succes
+{
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid green;
+    border-radius: .25rem;
 }
