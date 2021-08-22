@@ -18,12 +18,26 @@
 {
     border: 3px solid;
 }
+.xarita-1, .xarita-2
+{
+    border: 3px solid #999;
+    padding: 20px 20px 100px 20px;
+    background-color: rgba(196, 196, 196, 0.37);
+    height: 360px;
+}
+.xarita-1 .address, .xarita-2 .address
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.manzill
+{
+    padding: 5px;
+}
 .xarita-1
 {
     float: left;
-    border: 3px solid #999;
-    padding: 20px 20px;
-    background-color: rgba(196, 196, 196, 0.37);
 }
 .xarita-2
 {
