@@ -106,7 +106,7 @@ footer
 {
     margin-top: 50px;
     background-color: purple;
-    padding-bottom: 500px;
+    padding-bottom: 150px;
 }
 .birinchi_qator
 {
@@ -114,6 +114,8 @@ footer
     color: white;
     font-weight: bold;
     font-size: 20px;
+    width: 300px;
+    float: left;
 }
 .birinchi_qator p a
 {
@@ -123,4 +125,22 @@ footer
 .birinchi_qator p
 {
     padding: 5px 0;
+}
+.birinchi_qator p a:hover 
+{
+    text-decoration: underline;
+}
+.birinchi_qator p:active
+{
+    background-color: rgb(97, 1, 97);
+}
+.ikkinchi_qator
+{
+    margin-top: 45px;
+    color: white;
+    float: right;
+}
+.ikkinchi_qator p
+{
+    padding: 5px;
 }
