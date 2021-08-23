@@ -18,8 +18,7 @@ body
     clear: both;
 }
 header
-{
-    
+{   
     padding: 20px 0 10px 110px;
     background-image: linear-gradient(rgb(106, 195, 230), white, rgb(101, 191, 226));
     
@@ -114,6 +113,7 @@ footer
 }
 .birinchi_qator
 {
+    margin-left: 1%;
     padding-top: 30px;
     color: white;
     font-weight: bold;
@@ -140,6 +140,7 @@ footer
 }
 .ikkinchi_qator
 {
+    margin-right: 1%;
     margin-top: 45px;
     color: white;
     float: right;
