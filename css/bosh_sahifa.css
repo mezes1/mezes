@@ -10,7 +10,7 @@ body
 }
 .container
 {
-    width: 1140px;
+    width: 90%;
     margin: auto;
 }
 .clearfix
@@ -113,7 +113,7 @@ footer
 }
 .birinchi_qator
 {
-    margin-left: 1%;
+    margin-left: 5%;
     padding-top: 30px;
     color: white;
     font-weight: bold;
@@ -140,7 +140,7 @@ footer
 }
 .ikkinchi_qator
 {
-    margin-right: 1%;
+    margin-right: 5%;
     margin-top: 45px;
     color: white;
     float: right;

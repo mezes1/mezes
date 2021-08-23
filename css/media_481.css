@@ -116,4 +116,13 @@
         padding-bottom: 70px;
         border-top: 2px solid green;
     }
+    .alert-succes
+    {
+        width: 270px;
+    }
+    .alert-succes p 
+    {
+        font-size: 12px;
+        line-height: 17px;
+    }
 }
