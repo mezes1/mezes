@@ -1,39 +1,44 @@
 .manzil
 {
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 .manzil h1 
 {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
     display: inline-block;
-    font-size: 35px;
-    border-bottom: 5px solid rgb(0, 49, 68);
+    font-size: 2.1875rem;
+    border-bottom: 0.2125rem solid rgb(0, 49, 68);
 }
 .manzil > p 
 {
-    margin: 50px 0;
-    font-size: 20px;
+    margin: 3.125rem 0;
+    font-size: 1.25rem;
 }
 .content
 {
-    border: 3px solid;
+    border: 0.1875rem solid;
 }
 .xarita-1, .xarita-2
 {
-    border: 3px solid #999;
-    padding: 20px 20px 100px 20px;
+    border: 0.1875rem solid #999;
+    padding: 1.25rem 1.25rem 6.25rem 1.25rem;
     background-color: rgba(196, 196, 196, 0.37);
-    height: 360px;
+    height: 22.5rem;
+}
+.xarita-1 iframe, .xarita-2 iframe
+{
+    width: 25rem;
+    height: 18.75rem;
 }
 .xarita-1 .address, .xarita-2 .address
 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 20px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
 }
 .manzill
 {
-    padding: 5px;
+    padding: 0.3125rem;
 }
 .xarita-1
 {
@@ -50,9 +55,9 @@
 .xarita h1 
 {
     float: left;
-    margin: 50px 0 40px 0;
+    margin: 3.125rem 0 2.5rem 0;
     display: inline-block;
-    border-bottom: 3px solid rgb(0, 49, 68);
+    border-bottom: 0.1875rem solid rgb(0, 49, 68);
 }
 .alert-succes
 {
@@ -64,4 +69,91 @@
     margin-bottom: 1rem;
     border: 1px solid green;
     border-radius: .25rem;
+}
+header a img 
+{
+    display: inline-block;
+    width: 9.375rem;
+    height: 3.91875rem;
+}
+/* MEDIA */
+/* media 995px */
+@media only screen and (max-width: 995px)
+{
+    html 
+    {
+        font-size: 12px;
+    }
+    
+}
+/* media 763px */
+@media only screen and (max-width: 763px)
+{
+    html 
+    {
+        font-size: 9px;
+    }
+    header p 
+    {
+        bottom: 22px;
+    }
+    header p 
+    {
+        bottom: 10px;
+    }
+}
+/* media 563px */
+@media only screen and (max-width: 563px)
+{
+    html 
+    {
+        font-size: 7px;
+    }
+    header p 
+    {
+        bottom: 7px;
+    }
+}
+/* media 450px */
+@media only screen and (max-width: 450px)
+{
+    header p 
+    {
+        margin-left: 15rem;
+        bottom: 9px;
+    }
+}
+/* media 436px */
+@media only screen and (max-width: 436px)
+{
+    html 
+    {
+        font-size: 6px;
+    }
+    body 
+    {
+        height: 100vh;
+    }
+}
+/* media 385px */
+@media only screen and (max-width: 385px)
+{
+    .xarita-1, .xarita-2
+    {
+        float: inherit;
+    }
+    .xarita-2
+    {
+        margin-top: 2rem;
+    }
+    .xarita
+    {
+        width: 28.125rem;
+        position: relative;
+        left: 20%;
+    }
+    body 
+    {
+        height: 100vh;
+    }
 }

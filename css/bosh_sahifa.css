@@ -10,7 +10,7 @@ body
 }
 .container
 {
-    width: 90%;
+    width: 90vw;
     margin: auto;
 }
 .clearfix
@@ -19,31 +19,39 @@ body
 }
 header
 {   
-    padding: 20px 0 10px 110px;
+    padding: 1.25rem 0 0.25rem 6.875rem;
     background-image: linear-gradient(rgb(106, 195, 230), white, rgb(101, 191, 226));
-    
+}
+header > img 
+{
+    display: inline-block;
+    width: 9.375rem;
+    height: 3.91875rem;
 }
 header p 
 {
-    display: inline-block;
-    margin-left: 200px;
+    display: inline-block;  
+    width: 24.25rem;
+    position: relative;
+    bottom: 15px;
+    margin-left: 10rem;
 }
 header p img 
 {
-    position: relative;
-    top: -7px;
+    position: absolute;
+    left: -20px;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 header p .a-k
-{
-    position: relative;
-    top: -15px;
-    font-size: 40px;
+{  
+    font-size: 2.5rem;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 .line
 {
-    margin-top: 70px;
+    margin-top: 4.375rem;
 }
 .line a 
 {
@@ -52,24 +60,23 @@ header p .a-k
 }
 .box-kartinka
 {
-    width: 230px;
-    height: 320px;
-    border: 3px solid grey;
+    width: 14.375rem;
+    height: 20rem;
+    border: 0.1275rem solid grey;
     box-sizing: border-box;
     display: inline-block;
-    margin-right: 30px;
-    margin-top: 20px;
-    border-radius: 5px;
+    margin-right: 1.875rem;
+    margin-top: 1.25rem;
+    border-radius: 0.3125rem;
     background-color: white;
 }
 .box
 {
-    width: 220px;
-    height: 310px;
-    margin-top: 2px;
-    margin-left: 2px;
+    width: 13.75rem;
+    height: 19.375rem;
+    margin-top: 0.125rem;
+    margin-left: 0.125rem;
     display: inline-block;
-    position: relative;
     cursor: pointer;
 }
 .box-kartinka:hover
@@ -79,26 +86,28 @@ header p .a-k
 .box img
 {
     border-bottom: 2px solid lightgray;
+    width: 13.75rem;
+    height: 13.75rem;
 }
 .info
 {
-    margin: 5px 15px;
+    margin: 0.3125rem 0.9375rem;
 }
 .narxi
 {
-    margin-top: 10px;
-    font-size: 25px;
+    margin-top: 0.625rem;
+    font-size: 1.5625rem;
     font-weight: bold;
 }
 .company
 {
-    margin: 3px;
+    margin: 0.1875rem;
     float: right;
 }
 .company a
 {
     color: gray;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-decoration: underline;
 }
 .rang_chegarasi
@@ -107,18 +116,18 @@ header p .a-k
 }
 footer 
 {
-    margin-top: 50px;
+    margin-top: 3.125rem;
     background-color: purple;
-    padding-bottom: 150px;
+    padding-bottom: 9.375rem;
 }
 .birinchi_qator
 {
     margin-left: 5%;
-    padding-top: 30px;
+    padding-top: 1.875rem;
     color: white;
     font-weight: bold;
-    font-size: 20px;
-    width: 300px;
+    font-size: 1.25rem;
+    width: 18.75rem;
     float: left;
 }
 .birinchi_qator p a
@@ -128,7 +137,7 @@ footer
 }
 .birinchi_qator p
 {
-    padding: 5px 0;
+    padding: 0.3125rem 0;
 }
 .birinchi_qator p a:hover 
 {
@@ -141,13 +150,13 @@ footer
 .ikkinchi_qator
 {
     margin-right: 5%;
-    margin-top: 45px;
+    margin-top: 2.8125rem;
     color: white;
     float: right;
 }
 .ikkinchi_qator p
 {
-    padding: 5px;
+    padding: 0.3125rem;
 }
 .sticky
 {
@@ -155,9 +164,90 @@ footer
     bottom: 160px;
     position: fixed;
     background-image: linear-gradient(rgb(255, 255, 255), #999);
-    width: 40px;
-    height: 40px;
-    padding-top: 10px;
-    padding-left: 10px;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-top: 0.625rem;
+    padding-left: 0.625rem;
     border-radius: 50%;
+}
+.sticky a img 
+{
+    width: 1.875rem;
+    height: 1.875rem;
+}
+/* MEDIA */
+/* media 813px */
+@media only screen and (max-width: 813px)
+{
+    html 
+    {
+        font-size: 12px;
+    }
+    header p 
+    {
+        width: 22.25rem;
+    }
+    header 
+    {
+        padding-left: 2rem;
+    }
+    header > img 
+    {
+        position: relative;
+        bottom: 4px;
+    }
+}
+/* media 540px */
+@media only screen and (max-width: 540px)
+{
+    html 
+    {
+        font-size: 9.8px;
+    }
+    header
+    {
+        padding-left: 2rem;
+    }
+    .sticky
+    {
+        right: 1%;
+        bottom: 19%;
+    }
+}
+/* media 450px */
+@media only screen and (max-width: 450px)
+{
+    header p
+    {
+        margin-left: 3rem;
+    }
+    header img 
+    {
+        position: relative;
+        bottom: 0.3rem;
+    }
+    header p .a-k
+    {
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+    .box-kartinka
+    {
+        width: 14.375rem;
+        height: 20rem;
+    }
+    /* media 382px */
+    @media only screen and (max-width: 382px)
+    {
+        html 
+        {
+            font-size: 8px;
+        }
+        header p
+        {
+            margin-left: 6rem;
+            width: 17.25rem;
+            bottom: 11px;
+        }
+    }
 }
