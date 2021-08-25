@@ -28,6 +28,12 @@ header > img
     width: 9.375rem;
     height: 3.91875rem;
 }
+header a img 
+{
+    display: inline-block;
+    width: 9.375rem;
+    height: 3.91875rem;
+}
 header p 
 {
     display: inline-block;  
