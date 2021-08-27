@@ -109,14 +109,9 @@ header p .a-k
 {
     margin: 0.1875rem;
     float: right;
-}
-.company a
-{
     color: gray;
     font-size: 0.875rem;
-    text-decoration: underline;
 }
-
 footer 
 {
     margin-top: 3.125rem;
