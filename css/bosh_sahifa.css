@@ -123,13 +123,14 @@ footer
 .malumot
 {
   margin: 3rem auto;
-  width: 80vw;
+  width: 85vw;
   background-color: #6edaab9d;
   padding: 1rem 3rem;
   font-size: 1rem;
   border-radius: 0.3125rem;
   border: 0.14rem solid #0ea15fb0;
   color: rgb(0, 105, 0);
+  box-sizing: border-box;
 }
 .birinchi_qator
 {
