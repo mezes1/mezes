@@ -39,8 +39,8 @@ header p
     display: inline-block;  
     width: 24.25rem;
     position: relative;
-    bottom: 15px;
-    margin-left: 10rem;
+    bottom: 0.9375rem;
+    left: 27%;
 }
 header p img 
 {
@@ -182,6 +182,14 @@ footer
     font-size: 2.875rem;
 }
 /* MEDIA */
+/* media max 884pz */
+@media only screen and (max-width: 884px)
+{
+    header p
+    {
+        left: 15%;
+    }
+}
 /* media 813px */
 @media only screen and (max-width: 813px)
 {
@@ -226,6 +234,7 @@ footer
     header p
     {
         margin-left: 3rem;
+        left: 6%;
     }
     header img 
     {
