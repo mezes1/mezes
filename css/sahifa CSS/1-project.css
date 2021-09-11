@@ -1,0 +1,102 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans',sans-serif;
+}
+body
+{
+    background-image: url(https://scontent.ftas1-1.fna.fbcdn.net/v/t1.6435-9/p180x540/241672735_113144627766819_2303583751709981687_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=DxeAgq-iS5sAX-bo2mk&_nc_ht=scontent.ftas1-1.fna&oh=07f4adf0469f7a402cf397ad51c771f9&oe=616318C7);
+    background-size: cover;
+    height: 100vh;
+}
+.nav
+{
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: -30px;
+    margin-left: 12px;
+}
+.nav ul li
+{
+    display: inline-block;
+    padding: 5px 6px;
+    font-size: 14px;
+    text-shadow: 1px 1px 3px black;
+}
+.nav ul li:hover 
+{
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.malumot
+{
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    right: 0%;
+    top: 25px;
+    text-shadow: 1px 1px 3px black;
+}
+.container
+{
+    width: 90%;
+    padding-top: 20px;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+section
+{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    line-height: 60px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+article 
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.button1, .button2
+{
+    padding: 20px 0;
+    width: 220px;
+    margin: 0 20px;
+    border-radius: 5px;
+    border: none;   
+}
+.button1
+{
+    background-color: #f49526;
+    box-shadow: 0px 3px  #e75f28;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 2px 2px 3px black;
+}
+.button1:hover 
+{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+.button2
+{
+    background-color: rgba(255, 255, 255, 0);
+    color: coral;
+    border: 3px solid #f49526;
+    text-shadow: 1px 1px 1px rgb(102, 27, 0);
+    font-weight: 700;
+}
+.button2:hover 
+{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(218, 58, 0);
+}
