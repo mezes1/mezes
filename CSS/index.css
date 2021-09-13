@@ -1,0 +1,153 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-image: linear-gradient(180deg, rgb(143, 143, 143), white);
+    padding-top: 1rem;
+}
+.container
+{
+    width: 85%;
+    margin: auto;
+}
+nav
+{
+    position: relative;
+}
+nav h1 
+{
+    display: inline-block;
+    margin-left: 20.5882rem;
+    position: relative;
+    font-size: 3rem;
+    top: -1rem;
+}
+nav button 
+{
+    position: absolute;
+    right: 0;
+    border: none;
+    height: 1.7647rem;
+    border: 0.25rem solid rgb(165, 165, 165);
+    border-radius: 20px;
+    padding: 10px 0 25px 15px;   
+    background-color: rgb(230, 230, 230);
+    
+}
+nav button span
+{
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: -11px;
+    padding-right: 5px;
+}
+nav button i 
+{
+    background-color: rgb(165, 165, 165);
+    font-size: 20px;
+    padding: 8px 15px 7px 10px;
+    position: relative;
+    top: -10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.mySkills
+{
+    position: absolute;
+    right: 155px;
+    top: 19px;
+    background-color: rgb(165, 165, 165);
+    display: inline-block;
+    padding: 30px 3px 10px 3px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    display: none;
+}
+.mySkills i 
+{
+    position: relative;
+    left: 69px;
+    bottom: 18px;
+    font-size: 19px;
+}
+.mySkills i:hover 
+{
+    color: rgb(255, 68, 0);
+}
+.bushliq
+{
+    width: 100px;
+    height: 35px;
+    border-top-left-radius: 5px;
+    background-image: linear-gradient(0deg, rgb(165, 165, 165), rgb(65, 65, 65));
+    position: absolute;
+    top: 4px;
+    left: -0.5px;
+}
+.mySkills ul li 
+{
+    list-style: none;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 0 10px 0 10px;
+}
+.mySkills ul li:hover 
+{
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
+    cursor: pointer;
+}
+header 
+{
+    margin-bottom: 30px;
+}
+/* /Header tugashi */
+section
+{
+    display: inline-block;
+    margin-bottom: 60px;
+}
+.sectionRight
+{
+    margin-left: 80px;
+}
+.box
+{
+    width: 600px;
+    height: 500px;
+    background-color: blanchedalmond;
+    border: 3px solid rgb(172, 172, 172);
+    padding: 0 10px 0 10px;
+    background-color: white;
+}
+section h1 
+{
+    margin-bottom: 20px;
+    border-bottom: 3px solid;
+    display: inline-block;
+    font-size: 30px;
+
+}
+section h1 a 
+{
+    text-decoration: none;
+    color: black;
+}
+.portfoliolar
+{
+
+}
+.box p 
+{
+    color: rgb(116, 116, 116);
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+}
