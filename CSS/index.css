@@ -17,6 +17,11 @@ nav
 {
     position: relative;
 }
+nav img 
+{
+    width: 9.375rem;
+    height: 3.91875rem;
+}
 nav h1 
 {
     display: inline-block;
@@ -32,47 +37,50 @@ nav button
     border: none;
     height: 1.7647rem;
     border: 0.25rem solid rgb(165, 165, 165);
-    border-radius: 20px;
-    padding: 10px 0 25px 15px;   
+    border-radius: 1.25rem;
+    padding: 0.625rem 0 1.5625rem 0.9375rem;   
     background-color: rgb(230, 230, 230);
-    
+}
+nav button:hover 
+{
+    box-shadow: 0.0625rem 0.0625rem 0.625rem black;
 }
 nav button span
 {
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: bold;
     position: relative;
-    top: -11px;
-    padding-right: 5px;
+    top: -0.6875rem;
+    padding-right: 0.3125rem;
 }
 nav button i 
 {
     background-color: rgb(165, 165, 165);
-    font-size: 20px;
-    padding: 8px 15px 7px 10px;
+    font-size: 1.25rem;
+    padding: 0.53125rem 0.9375rem 0.53125rem 0.625rem;
     position: relative;
-    top: -10px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+    top: -0.6875rem;
+    border-bottom-right-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
 }
 .mySkills
 {
     position: absolute;
-    right: 155px;
-    top: 19px;
+    right: 9.6875rem;
+    top: 1.1875rem;
     background-color: rgb(165, 165, 165);
     display: inline-block;
-    padding: 30px 3px 10px 3px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
+    padding: 1.875rem 0.1875rem 0.625rem 0.1875rem;
+    border-bottom-left-radius: 0.3125rem;
+    border-top-left-radius: 0.3125rem;
     display: none;
 }
 .mySkills i 
 {
     position: relative;
-    left: 69px;
-    bottom: 18px;
-    font-size: 19px;
+    left: 4.3125rem;
+    bottom: 1.125rem;
+    font-size: 1.1875rem;
 }
 .mySkills i:hover 
 {
@@ -80,57 +88,65 @@ nav button i
 }
 .bushliq
 {
-    width: 100px;
-    height: 35px;
-    border-top-left-radius: 5px;
+    width: 6.25rem;
+    height: 2.1875rem;
+    border-top-left-radius: 0.3125rem;
     background-image: linear-gradient(0deg, rgb(165, 165, 165), rgb(65, 65, 65));
     position: absolute;
-    top: 4px;
-    left: -0.5px;
+    top: 0.25rem;
+    left: -0.03125rem;
 }
 .mySkills ul li 
 {
     list-style: none;
-    line-height: 30px;
+    line-height: 1.875rem;
     font-weight: bold;
-    padding: 0 10px 0 10px;
+    padding: 0 0.625rem 0 0.625rem;
 }
 .mySkills ul li:hover 
 {
     background-color: rgb(228, 228, 228);
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     cursor: pointer;
 }
 header 
 {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 /* /Header tugashi */
 section
 {
     display: inline-block;
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
 }
 .sectionRight
 {
-    margin-left: 80px;
+    margin-left: 5rem;
 }
 .box
 {
-    width: 600px;
-    height: 500px;
+    width: 37.5rem;
+    height: 31.25rem;
     background-color: blanchedalmond;
-    border: 3px solid rgb(172, 172, 172);
-    padding: 0 10px 0 10px;
+    border: 0.1875rem solid rgb(172, 172, 172);
+    padding: 0 0.625rem 0 0.625rem;
     background-color: white;
+}
+.box img 
+{
+    width: 37.5rem;
+    height: 31.25rem;
 }
 section h1 
 {
-    margin-bottom: 20px;
-    border-bottom: 3px solid;
+    margin-bottom: 1.25rem;
+    border-bottom: 0.1875rem solid;
     display: inline-block;
-    font-size: 30px;
-
+    font-size: 1.875rem;
+}
+section h1:hover a
+{
+    color: coral;
 }
 section h1 a 
 {
@@ -149,5 +165,95 @@ section h1 a
     font-weight: bold;
     display: inline-block;
     position: relative;
-    bottom: 30px;
+    bottom: 1.875rem;
+}
+/* @media   MEDIA */
+/* Laptop */
+@media only screen and (max-width: 1440px)
+{
+    html 
+    {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1024px)
+{
+    .box 
+    {
+        width: 370px;
+        height: 300px;
+    }
+    .box img 
+    {
+        width: 370px;
+        height: 300px;
+    }
+    nav h1 
+    {
+        margin-left: 192px;
+    }
+    nav button i 
+    {
+        padding: 0.58125rem 0.9375rem 0.58125rem 0.625rem;
+        top: -10px;
+    }
+}
+/* Tablet */
+@media only screen and (max-width: 768px)
+{
+    html 
+    {
+        font-size: 10px;
+    }
+    .box 
+    {
+        width: 280px;
+        height: 240px;
+    }
+    .box img 
+    {
+        width: 280px;
+        height: 240px;
+    }
+}
+/* Mobile */
+@media only screen and (max-width: 425px)
+{
+    html 
+    {
+        font-size: 4px;
+    }
+    .sectionRight
+    {
+        margin-left: 0;
+        display: block;
+    }
+    .box {
+        width: 75rem;
+        height: 62.5rem;
+    }
+    .box img 
+    {
+        width: 75rem;
+        height: 62.5rem; 
+    }
+    nav button span 
+    {
+        top: -9px;
+    }
+    nav button i 
+    {
+        top: -9px;
+        left: 1px;
+    }
+}
+@media only screen and (max-width: 320px)
+{
+    .box {
+        width: 270px
+    }
+    .box img 
+    {
+        width: 270px;
+    }
 }
